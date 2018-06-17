@@ -1,5 +1,15 @@
 const repeatStringNumTimes = (str, repeat) => {
-  return str
+  if (repeat < 0) return "";
+
+  let counter = 0;
+  let res = [];
+
+  while (counter < repeat) {
+    res.push(str);
+    counter++;
+  }
+
+  return res.join("");
 };
 
-console.log(repeatStringNumTimes('*', 3));
+module.exports = repeatStringNumTimes;

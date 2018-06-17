@@ -5,5 +5,3 @@ const falsyBouncer = (arr) => {
 };
 
 module.exports = falsyBouncer;
-
-console.log(falsyBouncer(arr));

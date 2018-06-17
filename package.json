@@ -10,7 +10,8 @@
   },
   "scripts": {
     "test": "jest",
-    "prettier": "prettier --write src/*/**"
+    "prettier": "prettier --write src/*/**",
+    "clean": "npm run prettier"
   },
   "keywords": [],
   "author": "Sagar",
