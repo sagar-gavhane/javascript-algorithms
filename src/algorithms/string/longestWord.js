@@ -14,7 +14,7 @@ const longestWord = (str) => {
 */
 
 const longestWord = (str) => {
-  return Math.max(...str.split(" ").map((el) => el.length));
+  return Math.max(...str.split(' ').map((el) => el.length));
 };
 
 module.exports = longestWord;

@@ -1,5 +1,5 @@
 const repeatStringNumTimes = (str, repeat) => {
-  if (repeat < 0) return "";
+  if (repeat < 0) return '';
 
   let counter = 0;
   let res = [];
@@ -9,7 +9,7 @@ const repeatStringNumTimes = (str, repeat) => {
     counter++;
   }
 
-  return res.join("");
+  return res.join('');
 };
 
 module.exports = repeatStringNumTimes;

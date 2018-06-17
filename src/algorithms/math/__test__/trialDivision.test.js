@@ -1,4 +1,4 @@
-const trialDivision = require("./../trialDivision");
+const trialDivision = require('./../trialDivision');
 
 /**
  * @param {function(n: number)} testFunction
@@ -30,8 +30,8 @@ function primalityTest(testFunction) {
   expect(testFunction(10.5)).toBeFalsy();
 }
 
-describe("trialDivision", () => {
-  it("should detect prime numbers", () => {
+describe('trialDivision', () => {
+  it('should detect prime numbers', () => {
     // primalityTest(trialDivision);
   });
 });

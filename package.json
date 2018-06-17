@@ -5,13 +5,17 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
     "jest": "^23.1.0",
     "prettier": "^1.13.5"
   },
   "scripts": {
     "test": "jest",
     "prettier": "prettier --write src/*/**",
-    "clean": "npm run prettier"
+    "clean": "npm run prettier",
+    "lint": "eslint src/*/*** --fix"
   },
   "keywords": [],
   "author": "Sagar",
