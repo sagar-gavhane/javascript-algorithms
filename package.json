@@ -1,0 +1,18 @@
+{
+  "name": "Algo360",
+  "version": "1.0.0",
+  "description": "Algo360 project designed for learning algorithms",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "prettier": "^1.13.5"
+  },
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier --write src/*/**"
+  },
+  "keywords": [],
+  "author": "Sagar",
+  "license": "ISC"
+}
